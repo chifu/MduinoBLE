@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01584C161C1C8E8B00309962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01584C151C1C8E8B00309962 /* main.m */; };
+		01584C191C1C8E8B00309962 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01584C181C1C8E8B00309962 /* AppDelegate.m */; };
+		01584C1F1C1C8E8B00309962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01584C1D1C1C8E8B00309962 /* Main.storyboard */; };
+		01584C211C1C8E8B00309962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01584C201C1C8E8B00309962 /* Assets.xcassets */; };
+		01584C241C1C8E8B00309962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01584C221C1C8E8B00309962 /* LaunchScreen.storyboard */; };
+		01584C2F1C1C8E8C00309962 /* MduinoBLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01584C2E1C1C8E8C00309962 /* MduinoBLETests.m */; };
+		01584C3A1C1C8E8C00309962 /* MduinoBLEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01584C391C1C8E8C00309962 /* MduinoBLEUITests.m */; };
+		01584C481C1C97BB00309962 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01584C471C1C97BB00309962 /* CoreBluetooth.framework */; };
+		01584C4B1C1C97FD00309962 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01584C4A1C1C97FD00309962 /* CoreGraphics.framework */; };
+		01584C4D1C1C980C00309962 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01584C4C1C1C980C00309962 /* Foundation.framework */; };
+		01584C4F1C1C981400309962 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01584C4E1C1C981400309962 /* UIKit.framework */; };
+		01584C521C1C988600309962 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01584C511C1C988600309962 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01584C2B1C1C8E8B00309962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01584C091C1C8E8B00309962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01584C101C1C8E8B00309962;
+			remoteInfo = MduinoBLE;
+		};
+		01584C361C1C8E8C00309962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01584C091C1C8E8B00309962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01584C101C1C8E8B00309962;
+			remoteInfo = MduinoBLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01584C111C1C8E8B00309962 /* MduinoBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MduinoBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01584C151C1C8E8B00309962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01584C171C1C8E8B00309962 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01584C181C1C8E8B00309962 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01584C1E1C1C8E8B00309962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01584C201C1C8E8B00309962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01584C231C1C8E8B00309962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01584C251C1C8E8B00309962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01584C2A1C1C8E8B00309962 /* MduinoBLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MduinoBLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01584C2E1C1C8E8C00309962 /* MduinoBLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MduinoBLETests.m; sourceTree = "<group>"; };
+		01584C301C1C8E8C00309962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01584C351C1C8E8C00309962 /* MduinoBLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MduinoBLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01584C391C1C8E8C00309962 /* MduinoBLEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MduinoBLEUITests.m; sourceTree = "<group>"; };
+		01584C3B1C1C8E8C00309962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01584C471C1C97BB00309962 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		01584C4A1C1C97FD00309962 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01584C4C1C1C980C00309962 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01584C4E1C1C981400309962 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01584C501C1C988600309962 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		01584C511C1C988600309962 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01584C0E1C1C8E8B00309962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01584C4F1C1C981400309962 /* UIKit.framework in Frameworks */,
+				01584C4D1C1C980C00309962 /* Foundation.framework in Frameworks */,
+				01584C4B1C1C97FD00309962 /* CoreGraphics.framework in Frameworks */,
+				01584C481C1C97BB00309962 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01584C271C1C8E8B00309962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01584C321C1C8E8C00309962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01584C081C1C8E8B00309962 = {
+			isa = PBXGroup;
+			children = (
+				01584C131C1C8E8B00309962 /* MduinoBLE */,
+				01584C2D1C1C8E8C00309962 /* MduinoBLETests */,
+				01584C381C1C8E8C00309962 /* MduinoBLEUITests */,
+				01584C121C1C8E8B00309962 /* Products */,
+				01584C491C1C97D300309962 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01584C121C1C8E8B00309962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01584C111C1C8E8B00309962 /* MduinoBLE.app */,
+				01584C2A1C1C8E8B00309962 /* MduinoBLETests.xctest */,
+				01584C351C1C8E8C00309962 /* MduinoBLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01584C131C1C8E8B00309962 /* MduinoBLE */ = {
+			isa = PBXGroup;
+			children = (
+				01584C171C1C8E8B00309962 /* AppDelegate.h */,
+				01584C181C1C8E8B00309962 /* AppDelegate.m */,
+				01584C501C1C988600309962 /* MainViewController.h */,
+				01584C511C1C988600309962 /* MainViewController.m */,
+				01584C1D1C1C8E8B00309962 /* Main.storyboard */,
+				01584C201C1C8E8B00309962 /* Assets.xcassets */,
+				01584C221C1C8E8B00309962 /* LaunchScreen.storyboard */,
+				01584C251C1C8E8B00309962 /* Info.plist */,
+				01584C141C1C8E8B00309962 /* Supporting Files */,
+			);
+			path = MduinoBLE;
+			sourceTree = "<group>";
+		};
+		01584C141C1C8E8B00309962 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01584C151C1C8E8B00309962 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01584C2D1C1C8E8C00309962 /* MduinoBLETests */ = {
+			isa = PBXGroup;
+			children = (
+				01584C2E1C1C8E8C00309962 /* MduinoBLETests.m */,
+				01584C301C1C8E8C00309962 /* Info.plist */,
+			);
+			path = MduinoBLETests;
+			sourceTree = "<group>";
+		};
+		01584C381C1C8E8C00309962 /* MduinoBLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01584C391C1C8E8C00309962 /* MduinoBLEUITests.m */,
+				01584C3B1C1C8E8C00309962 /* Info.plist */,
+			);
+			path = MduinoBLEUITests;
+			sourceTree = "<group>";
+		};
+		01584C491C1C97D300309962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01584C4E1C1C981400309962 /* UIKit.framework */,
+				01584C4C1C1C980C00309962 /* Foundation.framework */,
+				01584C4A1C1C97FD00309962 /* CoreGraphics.framework */,
+				01584C471C1C97BB00309962 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01584C101C1C8E8B00309962 /* MduinoBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01584C3E1C1C8E8C00309962 /* Build configuration list for PBXNativeTarget "MduinoBLE" */;
+			buildPhases = (
+				01584C0D1C1C8E8B00309962 /* Sources */,
+				01584C0E1C1C8E8B00309962 /* Frameworks */,
+				01584C0F1C1C8E8B00309962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MduinoBLE;
+			productName = MduinoBLE;
+			productReference = 01584C111C1C8E8B00309962 /* MduinoBLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01584C291C1C8E8B00309962 /* MduinoBLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01584C411C1C8E8C00309962 /* Build configuration list for PBXNativeTarget "MduinoBLETests" */;
+			buildPhases = (
+				01584C261C1C8E8B00309962 /* Sources */,
+				01584C271C1C8E8B00309962 /* Frameworks */,
+				01584C281C1C8E8B00309962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01584C2C1C1C8E8B00309962 /* PBXTargetDependency */,
+			);
+			name = MduinoBLETests;
+			productName = MduinoBLETests;
+			productReference = 01584C2A1C1C8E8B00309962 /* MduinoBLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01584C341C1C8E8C00309962 /* MduinoBLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01584C441C1C8E8C00309962 /* Build configuration list for PBXNativeTarget "MduinoBLEUITests" */;
+			buildPhases = (
+				01584C311C1C8E8C00309962 /* Sources */,
+				01584C321C1C8E8C00309962 /* Frameworks */,
+				01584C331C1C8E8C00309962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01584C371C1C8E8C00309962 /* PBXTargetDependency */,
+			);
+			name = MduinoBLEUITests;
+			productName = MduinoBLEUITests;
+			productReference = 01584C351C1C8E8C00309962 /* MduinoBLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01584C091C1C8E8B00309962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chifu;
+				TargetAttributes = {
+					01584C101C1C8E8B00309962 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					01584C291C1C8E8B00309962 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 01584C101C1C8E8B00309962;
+					};
+					01584C341C1C8E8C00309962 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 01584C101C1C8E8B00309962;
+					};
+				};
+			};
+			buildConfigurationList = 01584C0C1C1C8E8B00309962 /* Build configuration list for PBXProject "MduinoBLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01584C081C1C8E8B00309962;
+			productRefGroup = 01584C121C1C8E8B00309962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01584C101C1C8E8B00309962 /* MduinoBLE */,
+				01584C291C1C8E8B00309962 /* MduinoBLETests */,
+				01584C341C1C8E8C00309962 /* MduinoBLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01584C0F1C1C8E8B00309962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01584C241C1C8E8B00309962 /* LaunchScreen.storyboard in Resources */,
+				01584C211C1C8E8B00309962 /* Assets.xcassets in Resources */,
+				01584C1F1C1C8E8B00309962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01584C281C1C8E8B00309962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01584C331C1C8E8C00309962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01584C0D1C1C8E8B00309962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01584C191C1C8E8B00309962 /* AppDelegate.m in Sources */,
+				01584C161C1C8E8B00309962 /* main.m in Sources */,
+				01584C521C1C988600309962 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01584C261C1C8E8B00309962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01584C2F1C1C8E8C00309962 /* MduinoBLETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01584C311C1C8E8C00309962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01584C3A1C1C8E8C00309962 /* MduinoBLEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01584C2C1C1C8E8B00309962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01584C101C1C8E8B00309962 /* MduinoBLE */;
+			targetProxy = 01584C2B1C1C8E8B00309962 /* PBXContainerItemProxy */;
+		};
+		01584C371C1C8E8C00309962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01584C101C1C8E8B00309962 /* MduinoBLE */;
+			targetProxy = 01584C361C1C8E8C00309962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01584C1D1C1C8E8B00309962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01584C1E1C1C8E8B00309962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01584C221C1C8E8B00309962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01584C231C1C8E8B00309962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01584C3C1C1C8E8C00309962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01584C3D1C1C8E8C00309962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01584C3F1C1C8E8C00309962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MduinoBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chifu.MduinoBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		01584C401C1C8E8C00309962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MduinoBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chifu.MduinoBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		01584C421C1C8E8C00309962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MduinoBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chifu.MduinoBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MduinoBLE.app/MduinoBLE";
+			};
+			name = Debug;
+		};
+		01584C431C1C8E8C00309962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MduinoBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chifu.MduinoBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MduinoBLE.app/MduinoBLE";
+			};
+			name = Release;
+		};
+		01584C451C1C8E8C00309962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MduinoBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chifu.MduinoBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MduinoBLE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		01584C461C1C8E8C00309962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MduinoBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chifu.MduinoBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MduinoBLE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01584C0C1C1C8E8B00309962 /* Build configuration list for PBXProject "MduinoBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01584C3C1C1C8E8C00309962 /* Debug */,
+				01584C3D1C1C8E8C00309962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01584C3E1C1C8E8C00309962 /* Build configuration list for PBXNativeTarget "MduinoBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01584C3F1C1C8E8C00309962 /* Debug */,
+				01584C401C1C8E8C00309962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01584C411C1C8E8C00309962 /* Build configuration list for PBXNativeTarget "MduinoBLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01584C421C1C8E8C00309962 /* Debug */,
+				01584C431C1C8E8C00309962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01584C441C1C8E8C00309962 /* Build configuration list for PBXNativeTarget "MduinoBLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01584C451C1C8E8C00309962 /* Debug */,
+				01584C461C1C8E8C00309962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01584C091C1C8E8B00309962 /* Project object */;
+}
